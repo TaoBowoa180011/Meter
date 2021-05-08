@@ -1,0 +1,10 @@
+[default.ocr]
+det_model_dir = '/Model/ch_ppocr_mobile_v2.0_det_infer'
+rec_model_dir = '/Model/ch_ppocr_server_v2.0_rec_infer'
+rec_char_dict_path = '/PaddleOCR/ppocr/utils/ppocr_keys_v1.txt'
+cls_model_dir = '/Model/ch_ppocr_mobile_v2.0_cls_infer'
+angle_switch = false
+min_angle = -30
+max_angle = 30
+angle_step = 10
+text_score_thresh = 0.9
